@@ -3,11 +3,15 @@
 
 '''
 title: 爬取指定网站单页的 HTML 静态文件  v 1.0
-description: 1. 抓取网站单页引入的本地 JS ， CSS ， 图片(jpg,png) 文件
-			 2. 抓取网站单页引入的 CSS 文件里引入的 图片文件(一些背景图)
-			 3. 抓取网站单页引入的 CSS 文件里引入的 其他 CSS 文件
+description: 
+			1. 抓取网站单页引入的本地 JS ， CSS ， 图片(jpg,png) 文件
+			2. 抓取网站单页引入的 CSS 文件里引入的 图片文件(一些背景图)
+			3. 抓取网站单页引入的 CSS 文件里引入的 其他 CSS 文件
 author: EvilCLAY
 time: 2015.10.10
+how to use: 
+			把 HTMLCPer('http://www.evilclay.com/') 替换成指定的url，
+			运行python downloadHTMLByURL.py 会在当前目录下生成对应目录结构的资源文件。
 '''
 import urllib 
 import urllib2
