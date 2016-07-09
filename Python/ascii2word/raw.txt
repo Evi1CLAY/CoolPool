@@ -1,0 +1,4 @@
+for( day = the day we were together; day <= forever; day ++)
+{
+	Our Love ++;
+}

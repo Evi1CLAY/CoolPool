@@ -1,0 +1,19 @@
+需要 转换脚本 transform.py
+
+代码 如下：
+
+# transform.py
+from distutils.core import setup
+import py2exe
+
+setup(console=["python_hook.py"])
+
+python_hook.py  是 待转换成 exe 的py文件
+
+cmd下 执行：
+
+python transform.py py2exe
+
+生成dist 文件  包含可执行程序 以及 动态链接库文件。
+
+生成的一些程序 需要先设置成 360 对此不在提醒。
