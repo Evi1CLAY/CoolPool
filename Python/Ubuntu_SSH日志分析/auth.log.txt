@@ -1,0 +1,10 @@
+Jul  3 22:19:14 localhost systemd-logind[373]: Watching system buttons on /dev/input/event0 (Power Button)
+Jul  3 22:19:14 localhost systemd-logind[373]: New seat seat0.
+Jul  3 22:19:16 localhost sshd[731]: Server listening on 0.0.0.0 port 22.
+Jul  3 22:19:16 localhost sshd[731]: Server listening on :: port 22.
+Jul  4 05:24:48 localhost sshd[825]: error: Could not load host key: /etc/ssh/ssh_host_ecdsa_key
+Jul  4 05:24:48 localhost sshd[825]: error: Could not load host key: /etc/ssh/ssh_host_ed25519_key
+Jul  4 05:24:53 localhost sshd[825]: reverse mapping checking getaddrinfo for 106.51.8-broadband.acttv.in [106.51.8.202] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jul  4 05:24:53 localhost sshd[825]: Accepted password for root from 106.51.8.202 port 62689 ssh2
+Jul  4 05:24:53 localhost sshd[825]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul  4 05:24:53 localhost systemd-logind[373]: New session 1 of user root.
