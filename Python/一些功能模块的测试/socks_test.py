@@ -23,14 +23,14 @@ class Google():
 
 	def __init__(self):
 		# 使用 google.co.jp 谷歌日本的搜索引擎
-		self.url = 'https://www.google.co.jp/#q='
+		self.url = 'http://www.google.com'
 		self.url0 = 'http://ip.cn'
 		self.keyword  = 'Anka9080'
 		self.spider()
 		# 设置 sock5 代理
 		socks.set_default_proxy(socks.SOCKS5,"127.0.0.1",1080)
 		socket.socket = socks.socksocket
-		print(requests.get(url = self.url0, headers = HEADERS).text)
+		print len(requests.get(url = self.url, headers = HEADERS).text)
 
 	# 爬行页面抓取 urls
 	def spider(self):

@@ -8,7 +8,7 @@ ghost = Ghost()
 
 with ghost.start() as session:
     try:
-    	page, extra_resources = session.open("http://mysweet.gift")
+    	page, extra_resources = session.open("https://www.baidu.com")
     	print page.http_status
     	print page.content
     except Exception,e:
