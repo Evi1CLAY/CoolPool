@@ -1,5 +1,27 @@
 # Python
 
+- DomainSeeker
+
+多方式子域名收集脚本（DNS枚举，搜索引擎，子域名查询API）
+
+
+- 12306
+
+12306 火车票余票查询工具 提供邮件通知
+
+- train
+
+全国所有列车的爬行脚本（包含列车号，途径车站）
+
+- Celery
+
+分布式消息队列Celery的一个Demo
+
+- des
+
+使用 pyDes库 实现的 DES 加密解密脚本
+
+
 - TUST爆破相关脚本
 
 包含三个脚本：模拟登陆，批量爆破账号密码相同的账户，查找使用指定密码的用户
@@ -22,7 +44,7 @@ ASCII码转换成字母的小脚本
 
 - 一些功能模块的测试
 
-一些Python第三方库的使用测试，详情戳进去
+一些Python第三方库的使用测试（BeautifulSoup，py2exe，pymouse，doc_string，ghost，logging，py_hook，socks，cprint，multi_dummy，multithreading，optparse，ThreadPool）
 
 - 批量检测域名是否注册
 
@@ -67,6 +89,10 @@ ASCII码转换成字母的小脚本
 - get_google_count_by_url.py
 
 调用selenium库开启Firefox浏览器抓取数据，这个库多用于自动化吧，想在想想用这个思路抓数据好Low啊 TAT
+
+- getSubDomain.py
+
+根据好搜搜索引擎的结果收集子域名
 
 - group_count.py
 
