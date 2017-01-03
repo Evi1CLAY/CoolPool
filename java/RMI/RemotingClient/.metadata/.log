@@ -1,0 +1,307 @@
+!SESSION 2011-05-18 16:19:29.718 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:32.149
+!MESSAGE NLS unused message: provider_invalid_general in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:32.152
+!MESSAGE NLS unused message: provider_invalid in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:32.153
+!MESSAGE NLS unused message: product_notFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:36.898
+!MESSAGE NLS unused message: IniFileReader_OpenPropError in: org.eclipse.update.internal.configurator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:36.900
+!MESSAGE NLS unused message: IniFileReader_OpenMapError in: org.eclipse.update.internal.configurator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:54.315
+!MESSAGE NLS unused message: url_couldNotResolve in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:54.862
+!MESSAGE NLS unused message: AboutDialog_featureInfo in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:54.862
+!MESSAGE NLS unused message: AboutDialog_pluginInfo in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:54.863
+!MESSAGE NLS unused message: AboutDialog_systemInfo in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:54.865
+!MESSAGE NLS unused message: Perspective_errorLoadingState in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:54.866
+!MESSAGE NLS unused message: WorkbenchStatusDialog_Support in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:55.334
+!MESSAGE NLS unused message: PropertyTester_error_activating_plugin in: org.eclipse.core.internal.expressions.ExpressionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.594
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_super_class in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.595
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_error_removed_type in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.596
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_error_cannot_create in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.596
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_enum_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.597
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_annotation_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.598
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_anonymous_type_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.599
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_already_has_hashCode_equals_error in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.599
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_error_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.600
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_final_hashCode_equals_in_superclass_error in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:19:58.601
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_interface_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.jface 2 0 2011-05-18 16:20:01.139
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-05-18 16:20:01.139
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,剪切,
+		将选择的内容剪切到剪贴板中,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@17d3308,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:05.353
+!MESSAGE NLS unused message: LaunchConfiguration_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:05.353
+!MESSAGE NLS unused message: LaunchConfiguration_15 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:05.354
+!MESSAGE NLS unused message: LaunchManager_30 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:05.355
+!MESSAGE NLS unused message: J9VMRunner_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:05.551
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:05.552
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:05.554
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.226
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.300
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.342
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.379
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.412
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.453
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.497
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.529
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.613
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.700
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-05-18 16:20:10.743
+!MESSAGE Installed snippet library: D:\Program Files\Genuitec\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:11.127
+!MESSAGE NLS unused message: AutomaticUpdatesJob_EclipseUpdates1 in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:11.129
+!MESSAGE NLS unused message: AutomaticUpdatesJob_UpdatesAvailable in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:11.130
+!MESSAGE NLS unused message: AutomaticUpdatesJob_EclipseUpdates2 in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:11.132
+!MESSAGE NLS unused message: AutomaticUpdatesJob_UpdatesDownloaded in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-18 16:20:11.133
+!MESSAGE NLS unused message: AutomaticUpdatesJob_Updates in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+!SESSION 2011-05-19 10:51:15.241 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:16.187
+!MESSAGE NLS unused message: provider_invalid_general in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:16.188
+!MESSAGE NLS unused message: provider_invalid in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:16.189
+!MESSAGE NLS unused message: product_notFound in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:18.218
+!MESSAGE NLS unused message: IniFileReader_OpenPropError in: org.eclipse.update.internal.configurator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:18.219
+!MESSAGE NLS unused message: IniFileReader_OpenMapError in: org.eclipse.update.internal.configurator.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:20.418
+!MESSAGE NLS unused message: url_couldNotResolve in: org.eclipse.core.internal.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:21.045
+!MESSAGE NLS unused message: AboutDialog_featureInfo in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:21.045
+!MESSAGE NLS unused message: AboutDialog_pluginInfo in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:21.047
+!MESSAGE NLS unused message: AboutDialog_systemInfo in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:21.048
+!MESSAGE NLS unused message: Perspective_errorLoadingState in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:21.050
+!MESSAGE NLS unused message: WorkbenchStatusDialog_Support in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:21.425
+!MESSAGE NLS unused message: PropertyTester_error_activating_plugin in: org.eclipse.core.internal.expressions.ExpressionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.642
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_super_class in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.659
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_error_removed_type in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.660
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_error_cannot_create in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.662
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_enum_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.663
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_annotation_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.665
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_anonymous_type_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.666
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_already_has_hashCode_equals_error in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.668
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_error_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.669
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_final_hashCode_equals_in_superclass_error in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:25.670
+!MESSAGE NLS unused message: GenerateHashCodeEqualsAction_interface_not_applicable in: org.eclipse.jdt.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.jface 2 0 2011-05-19 10:51:28.818
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-05-19 10:51:28.818
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,剪切,
+		将选择的内容剪切到剪贴板中,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@9ef399,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:30.355
+!MESSAGE NLS unused message: LaunchConfiguration_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:30.356
+!MESSAGE NLS unused message: LaunchConfiguration_15 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:30.358
+!MESSAGE NLS unused message: LaunchManager_30 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:30.359
+!MESSAGE NLS unused message: J9VMRunner_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:30.428
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:30.430
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:30.447
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:35.146
+!MESSAGE NLS unused message: AutomaticUpdatesJob_EclipseUpdates1 in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:35.147
+!MESSAGE NLS unused message: AutomaticUpdatesJob_UpdatesAvailable in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:35.148
+!MESSAGE NLS unused message: AutomaticUpdatesJob_EclipseUpdates2 in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:35.149
+!MESSAGE NLS unused message: AutomaticUpdatesJob_UpdatesDownloaded in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
+
+!ENTRY org.eclipse.osgi 2 1 2011-05-19 10:51:35.150
+!MESSAGE NLS unused message: AutomaticUpdatesJob_Updates in: org.eclipse.update.internal.scheduler.UpdateSchedulerResources
