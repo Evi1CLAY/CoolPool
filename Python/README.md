@@ -1,5 +1,9 @@
 # Python
 
+- FakeDNSServer
+
+一个小巧的伪DNS服务器，配合dnslookup等命令处理没有回显的命令执行的情况
+
 - DomainSeeker
 
 多方式子域名收集脚本（DNS枚举，搜索引擎，子域名查询API）
