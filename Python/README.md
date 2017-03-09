@@ -1,5 +1,9 @@
 # Python
 
+- dns
+
+DNS服务器小脚本，直接输出dns请求信息
+
 - FakeDNSServer
 
 一个小巧的伪DNS服务器，配合dnslookup等命令处理没有回显的命令执行的情况

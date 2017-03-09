@@ -22,7 +22,7 @@ def login():
     }
     data_encoded = json.dumps(data)  # dumps 将 python 对象转换成 json 字符串
     try:
-        r = requests.post(url = 'http://api.zoomeye.org/user/login',data = data_encoded)
+        r = requests.post(url = 'https://api.zoomeye.org/user/login',data = data_encoded)
         r_decoded = json.loads(r.text) # loads() 将 json 字符串转换成 python 对象
         global access_token
         access_token = r_decoded['access_token']
@@ -64,7 +64,7 @@ def apiTest():
     while(True):
         try:
 
-            r = requests.get(url = 'http://api.zoomeye.org/host/search?query="dedecms"&facet=app,os&page=' + str(page),
+            r = requests.get(url = 'https://api.zoomeye.org/host/search?query="dedecms"&facet=app,os&page=' + str(page),
                          headers = headers)
             r_decoded = json.loads(r.text)
             # print r_decoded
